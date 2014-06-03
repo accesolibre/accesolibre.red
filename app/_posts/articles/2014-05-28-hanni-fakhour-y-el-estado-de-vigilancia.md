@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hanni Fakhoury y el estado vigilante"
+title: "Hanni Fakhoury y el Estado de vigilancia"
 date: 2014-05-28
 ---
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/tWY6zW9840s" frameborder="0" allowfullscreen></iframe>
@@ -11,4 +11,4 @@ Hanni menciona el proyecto de Autodefensa de la vigilancia que está aquí: <htt
 
 También menciona los 13 principios que se pueden leer aquí: <https://es.necessaryandproportionate.org/text>
 
-La Electronic Frontier Foundation (EFF) es una ONG que defiende libertades civiles en el mundo digital. Puedes donar a la EFF para apoyar su trabajo en su página web: <https://supporters.eff.org/donate>.
+La [Electronic Frontier Foundation (EFF)](http://eff.org) es una ONG que defiende libertades civiles en el mundo digital. Puedes donar a la EFF para apoyar su trabajo en su página web: <https://supporters.eff.org/donate>.
