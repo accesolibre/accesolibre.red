@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog de AccesoLibre
+---
+
+<div id='home'>
+  <div class='row'>
+    {% assign first_post = site.posts.first %}
+    <article class='twelvecol'>
+      <header>
+        <h1><a href='{{ first_post.url }}'>{{ first_post.title }}</a></h1>
+        <div class='date'>{{ first_post.date | date: "%B %d, %Y" }}</div>
+      </header>
+      <div class='content'>
+        {{ first_post.content }}
+      </div>
+    </article>
+  </div>
+
+  <div class='row'>
+    <section>
+      <h1>Más posts</h1>
+      <ul>
+        {% for post in site.posts limit: 10 offset: 1 %}
+        <li>
+          <h2><span class='date'>{{ post.date | date: "%B %d, %Y" }}</span> <a href='{{ post.url }}'>{{ post.title }}</a></h2>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
