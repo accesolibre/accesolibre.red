@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Hanni Fakhoury y el estado vigilante"
 date: 2014-05-28
 ---
