@@ -5,9 +5,6 @@
 
 name: accesolibre.red
 description: AccesoLibre
-author:
-  name: Jose Luis Rivas
-  email: me@ghostbar.co
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
@@ -18,6 +15,8 @@ include: ['.htaccess']
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
 show_drafts: true
+
+permalink: /blog/:year/:month/:day/:title
 
 # Markdown library
 markdown: rdiscount
