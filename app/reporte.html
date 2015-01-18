@@ -1,0 +1,46 @@
+---
+layout: default
+title: Reporte de Fallas - AccesoLibre
+---
+
+<div class="al-form">
+  <h2>Completa los datos a continuación para enviar tu reporte de falla de Conectividad a AccesoLibre</h2>
+  <form>
+    <p>
+      <label for="tipo_falla">¿De qué tipo es la falla?</label>
+      <select id="tipo_falla" name="tipo_falla">
+        <option selected>Selecciona un tipo de falla</option>
+        <option value="conectividad_nula">No es posible conectarse a ningún sitio Web</option>
+        <option value="conectividad_parcial">La conexión es intermitente, lenta, o falla para algunos sitios</option>
+      </select>
+    </p>
+    <p>
+      <label for="ubicacion">¿En qué lugar fue la falla?</label>
+      <input name="ubicacion" id="ubicacion" type="text" value="" placeholder="Ubicación" required/>
+    </p>
+    <p>
+      <label for="tiempo">¿Cuándo ocurrió y cuánto tiempo duró?</label>
+      <input name="tiempo" id="tiempo" type="text" value=""/>
+    </p>
+    <p>
+      <label for="detalles">¿Algún detalle adicional?</label>
+      <textarea cols="30" id="detalles" name="detalles" rows="10"></textarea>
+    </p>
+    <p>
+      <div id="captcha"></div>
+    </p>
+    <p>
+      <input type="submit" value="Enviar Reporte!"/>
+    </p>
+  </form>
+  <p>
+    <small>AccesoLibre no está afiliado a ningún proveedor de servicios de Internet o institución oficial. Esta es una iniciativa para vigilar y proveer información sobre el estado del acceso a Internet en <strong>Venezuela</strong>.</small>
+  </p>
+  
+</div>
+<div class="gracias" style="display: none">
+  <h1>¡Muchas gracias por tu reporte!</h1>
+</div>
+<script src="https://www.google.com/recaptcha/api.js?hl=es-419&onload=initCaptcha&render=explicit"></script>
+<script src="https://cdn.firebase.com/js/client/2.1.1/firebase.js" async></script>
+<script src="/js/reporte.js"></script>

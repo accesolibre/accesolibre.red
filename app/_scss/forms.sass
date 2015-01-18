@@ -1,0 +1,30 @@
+@import "compass/css3/box-sizing"
+@import "compass/css3/border-radius"
+
+.al-form
+  padding: 0.5rem
+  form
+    margin: 0 1rem
+    @include box-sizing()
+    p
+      input, textarea, select
+        width: 100%
+        display: block
+        @include box-sizing()
+        @include border-radius()
+        font-size: 1.1rem
+        padding: 0.25rem
+        border: 1px solid #ccc
+        &[type=submit]
+          color: white
+          background-color: lighten(#D40101, 20%)
+      label
+        width: 100%
+        display: block
+        font-size: 1.1rem
+        padding: 0
+        font-weight: bold
+      input
+        &[type=submit]
+          width: 60%
+          margin: 0 auto
