@@ -24,7 +24,8 @@
           tipo: tipo,
           ubicacion: form.elements.ubicacion.value,
           tiempo: form.elements.tiempo.value,
-          detalles: form.elements.detalles.value
+          detalles: form.elements.detalles.value,
+          timestamp: Date.now().valueOf()
         }, function() {
           document.querySelector('.al-form').style.display = 'none';
           document.querySelector('.gracias').style.display = 'block';
